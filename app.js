@@ -22,11 +22,3 @@ closeBtn.addEventListener('click', function () {
     closeBtn.classList.remove('after-click')
 
 })
-// modalContainer.addEventListener('click', function () {
-//     if (clicked) {
-//         modal.classList.remove('open-modal')
-//         modalContainer.style.backdropFilter = "none";
-//         modalContainer.style.zIndex = -1;
-//         closeBtn.classList.remove('after-click')
-//     }
-// });
