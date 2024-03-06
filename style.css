@@ -10,7 +10,7 @@ width: 100%;
 }   
 .container{
     height: 100%;
-    background-color: rgb(228, 232, 235);
+    background-color: rgb(255, 255, 255);
 }
 #open-modal{
     position: absolute;
@@ -27,6 +27,9 @@ width: 100%;
     font-size: 2rem;
     color: rgb(122, 122, 122);
     z-index: 1;
+}
+#open-modal:active{
+    transform: translate(-50%, -50%) scale(0.9);
 }
 .modal-container{
     width: 100%;
